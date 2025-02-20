@@ -1,0 +1,10 @@
+[project]
+name = "python_playground"
+version = "0.1.0"
+description = "Playground for Python"
+authors = [{ name = "one_victus", email = "marvinjesus28@gmail.com" }]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
